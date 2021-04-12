@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+    background-color: #bff0dc;
+    padding:18px;text-align:center;
+}
+.left {
+    float:left;
+    width:20%;
+    padding:20px;
+    margin-top:7px;
+    text-align:center;
+}
+.left a {
+    background-color:#e5e5e5;
+    padding:8px;
+    margin-top:7px;
+    display:block;
+    width:10%;
+    color:black;
+}
+.container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 10%;
+}
+
+
+.submit {
+    color: #2f8be8;
+    padding: 4px 12px;
+    width: 180px;
+}
+
+.content_wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .menu, .main, .left {
+        width: 100%;
+    }
+}
+body {
+    font-family: "Lato", sans-serif;
+    bottom:3%;
+    margin:10px;
+    padding: 0px;
+
+}
+
+/* The footer navigation*/
+.footer {
+    position:fixed;
+    bottom:0%;
+    right: 2%;
+    background: white;
+    color: #00aaff;
+    margin-top: 20px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+#img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    border-color: Black;
+    size: 200px;
+}
+
+
+
+
+#bcspMenu,
+#bcspMenu ul {
+    list-style: none;
+}
+#bcspMenu {
+    float: left;
+    margin-top: 0%;
+    margin-bottom: 30px;
+}
+#bcspMenu > li {
+    float: left;
+}
+#bcspMenu li a {
+    display: block;
+    height: 2em;
+    line-height: 2em;
+    padding: 0 1.5em;
+    text-decoration: none;
+}
+#bcspMenu ul {
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+#bcspMenu ul li a {
+    width: 80px;
+}
+#bcspMenu li:hover ul {
+    display: block;
+}
+
+
+
+
+/* Main menu
+------------------------------------------*/
+#bcspMenu {
+    font-family: Arial;
+    font-size: 12px;
+    background: #2f8be8;
+}
+#bcspMenu > li > a {
+    color: #fff;
+    font-weight: bold;
+}
+#bcspMenu > li:hover > a {
+    background: #bff0dc;
+    color: #000;
+}
+
+/* Submenu
+------------------------------------------*/
+#bcspMenu ul {
+    background: #cdd8f0;
+}
+#bcspMenu ul li a {
+    color: #000;
+}
+#bcspMenu ul li:hover a {
+    background: #dbf1ff;
+}
+
+h3{
+    font-family: Calibri;
+    font-size: 12pt;
+    font-style: normal;
+    font-weight: bold;
+    color:SlateBlue;
+    text-align: center;
+    text-decoration: underline
+}
+
+
+.pdfobject-container { height: 30rem; border: 1rem solid rgba(0,0,0,.1); }
+
+.embed-responsive {
+    width: 100%;
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.responsive {
+    object-fit: cover;
+    width:300px;
+    display:block;
+height: 300px}
